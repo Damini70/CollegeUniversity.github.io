@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get"
+    action="thank.html">
+
+    <input type="text" id="name" required="required" placeholder="Name">
+    <input type="text" id="mobile" required="required" placeholder="Mobile Number"><br><br>
+    <input type="text" id="city" required="required" placeholder="City">
+    <input type="text" id="email" required="required" placeholder="Email Id"><br><br>
+    <select class="form-control input-sm " id="txtCourse" name="txtCourse" required="required"><option value="">Preferred Course</option>
+        <option>Engineering-Btech-Mtech</option>
+        <option>Management-Bba-Mba</option>
+        <option>Distance-Learning-Mba</option>
+        <option>Bca-Mca-Computers</option>
+        <option>Fashion</option>
+        <option>Design</option>
+        <option>Architecture</option>
+        <option>Media-Films</option>
+        <option>Journalism</option>
+        <option>Law</option>
+        <option>Arts-Humanities</option>
+        <option>Science-Bsc-Msc</option>
+        <option>Animation-Multimedia</option>
+        <option>Finance-Accounts-Bcom-Mcom</option>
+        <option>Medicine-Healthcare-Mbbs-Bds-BPharm</option>
+        <option>Hotel-Management-Hospitality</option>
+        <option>Aviation</option>
+        </select>
+        <select class="form-control input-sm " id="qualification" name="qualification" required="required">
+            <option value=""> Highest Qualification</option>
+            
+            <option value="studying-completed-12th" id="Studying/Completed 12th" name="Studying/Completed 12th">Studying/Completed 12th</option>
+            <option value="studying-completed-diploma" id="Studying/Completed Diploma" name="Studying/Completed Diploma">Studying/Completed Diploma</option>
+            <option value="studying-completed-graduation" id="Studying/Completed Graduation" name="Studying/Completed Graduation">Studying/Completed Graduation</option>
+            <option value="studying-completed-masters-pg" id="Studying/Completed Masters/PG" name="Studying/Completed Masters/PG">Studying/Completed Masters/PG</option>
+            
+            <option value="studying-completed-phd" id="Studying/Completed phd" name="Studying/Completed phd">Studying/Completed Ph.D</option>
+            
+        </select><br><br>
+        <select class="form-control" id="enquiryfor" name="enquiryfor" required="required" style="font-size:13px;">
+            <option value="">Desirable College Location</option>
+            <option value="Courses in India" id="Courses in India" name="Courses in India">Colleges in India</option>
+            <option value="Overseas Education" id="Overseas Education" name="Overseas Education">Colleges in Abroad</option>
+        </select>
+        <p>Hostel Accomadation?</p>
+        <label for="yes">yes</label>
+        <input type="radio" id="yes" name="hostel">
+        <label for="no">no</label>
+        <input type="radio" id="no" name="hostel"><br><br>
+
+        <input type="checkbox" id="loan" >
+        <label for="loan">Education Loan Requirement</label><br><br>
+      
+        <textarea id="msg" placeholder="Query(if any)" rows = "5" cols = "60"></textarea><br><br>
+        <p>By submiting this form I accept and agree to AKU's <span><a href="http://www.youth4work.com/terms">terms & conditions</a></span>.</p>
+        <button type="submit">Submit</button>
+
+
+
+    
+</form>
+</body>
+</html>
