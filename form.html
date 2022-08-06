@@ -7,8 +7,31 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
+    <style>
+      #form{
+        margin: 2rem;
+        padding: 3rem;
+        font-size: medium;
+        text-align: center;
+        border: 1px solid grey;
+      }
+      #form input{
+        padding: 0.5rem;
+        margin: 1rem;
+      }
+      #form textarea{
+        padding: 1rem;
+      }
+      #form select{
+        font-size: medium;
+      }
+      #enquiryfor{
+        font-size:medium;
+      }
+    </style>
 </head>
 <body>
+    <div id="form">
     <form method="get"
     action="thank.html">
 
@@ -45,24 +68,24 @@
             
             <option value="studying-completed-phd" id="Studying/Completed phd" name="Studying/Completed phd">Studying/Completed Ph.D</option>
             
-        </select><br><br>
+        </select><br><br><br>
         <select class="form-control" id="enquiryfor" name="enquiryfor" required="required" style="font-size:13px;">
             <option value="">Desirable College Location</option>
             <option value="Courses in India" id="Courses in India" name="Courses in India">Colleges in India</option>
             <option value="Overseas Education" id="Overseas Education" name="Overseas Education">Colleges in Abroad</option>
-        </select>
+        </select><br><br>
         <p>Hostel Accomadation?</p>
         <label for="yes">yes</label>
         <input type="radio" id="yes" name="hostel">
         <label for="no">no</label>
-        <input type="radio" id="no" name="hostel"><br><br>
+        <input type="radio" id="no" name="hostel"><br>
 
         <input type="checkbox" id="loan" >
         <label for="loan">Education Loan Requirement</label><br><br>
       
         <textarea id="msg" placeholder="Query(if any)" rows = "5" cols = "60"></textarea><br><br>
-        <p>By submiting this form I accept and agree to AKU's <span><a href="http://www.youth4work.com/terms">terms & conditions</a></span>.</p>
-        <button type="submit">Submit</button>
+        <p>By submiting this form I accept and agree to AKU's <span><a href="http://www.youth4work.com/terms">terms & conditions</a></span>.</p><br><br>
+        <button type="submit">Submit</button></div>
 
 
 
